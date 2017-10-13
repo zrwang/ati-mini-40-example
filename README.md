@@ -10,6 +10,7 @@ Install comedi library:
 sudo apt-get install libcomedi-dev
 ```
 
+Compile with the following command:
 ```bash
 gcc main.c atinano.c keyboard_hit.c -o atitest -lcomedi -latift-0.1 -lm
 ```
